@@ -1,0 +1,23 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "web-test-runner",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@open-wc/testing": "2.5.33",
+    "@web/test-runner": "^0.13.15",
+    "@web/test-runner-playwright": "0.8.6",
+    "element-internals-polyfill": "0.1.43",
+    "parcel-bundler": "^1.6.1",
+    "sinon": "11.1.2"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
